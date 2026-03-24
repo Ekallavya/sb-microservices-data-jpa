@@ -1,0 +1,4 @@
+com\javatechie\spring\cassandra\api\model\User.class
+com\javatechie\spring\cassandra\api\SpringBootCassandraApplication.class
+com\javatechie\spring\cassandra\api\controller\UserController.class
+com\javatechie\spring\cassandra\api\rpository\UserRepository.class

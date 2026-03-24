@@ -1,0 +1,22 @@
+#1 install and run docker desktop
+#2 docker pull cassandra:latest
+#3 docker run --name my-cassandra -p 9042:9042 -d cassandra:latest
+#4 docker logs  my-cassandra -f
+#5 docker exec -it my-cassandra cqlsh
+#6 create keyspace and table in cqlsh
+CREATE KEYSPACE IF NOT EXISTS javatechie WITH replication = {'class': 'SimpleStrategy','replication_factor': 1};
+#USE javatechie;
+#CREATE TABLE IF NOT EXISTS User(id int PRIMARY KEY,name text,address,age int);
+
+# Build and Run Spring Boot Application
+#1 mvn clean install
+#2 mvn spring-boot:run
+
+#3 open browser and hit http://localhost:8080/getAllUsers
+to see the data from Cassandra database
+
+#4 http://localhost:8080/getUserFilterByAge/20
+
+#After testing you can stop and remove the docker container
+#1 docker stop my-cassandra
+#2 docker rm my-cassandra

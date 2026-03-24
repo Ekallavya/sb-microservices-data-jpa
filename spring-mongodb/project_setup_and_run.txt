@@ -1,0 +1,28 @@
+#download mongodb-windows-x86_64-8.2.6 from https://www.mongodb.com/try/download/community
+#install mongodb and add to path
+#open cmd and run mongod to start the mongodb server
+#open mongo shell
+# create a database BookStore
+# create a collection Book
+#create a document in the Book collection with the following data:
+{
+    "id": "1",
+    "bookName": "Java",
+    "authorName": "James Gosling"
+}
+# create another document in the Book collection with the following data:
+{
+    "id": "2",
+    "bookName": "Spring",
+    "authorName": "Rod Johnson"
+}
+# create a third document in the Book collection with the following data:
+{
+    "id": "3",
+    "bookName": "Hibernate",
+    "authorName": "Gavin King"
+}
+#create a collection order
+# compile and run spring boot application
+
+# test  controller endpoint using postman or curl

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "firstname": "Sunil",
+    "lastname": "Gavaskar",
+    "age": "65"
+  },
+  {
+    "id": "2",
+    "firstname": "Mark",
+    "lastname": "Wagh",
+    "age": "55"
+  },
+  {
+    "id": "3",
+    "firstname": "Steve",
+    "lastname": "Wagh",
+    "age": "55"
+  },
+  {
+    "id": "4",
+    "firstname": "Kapil",
+    "lastname": "Dev",
+    "age": "60"
+  },
+  {
+    "id": "5",
+    "firstname": "Sachin",
+    "lastname": "Tendulkar",
+    "age": "65"
+  },
+  {
+    "id": "6",
+    "firstname": "Rohit",
+    "lastname": "Sharma",
+    "age": "65"
+  },
+  {
+    "id": "7",
+    "firstname": "Yuvraj",
+    "lastname": "Singh",
+    "age": "65"
+  },
+  {
+    "id": "8",
+    "firstname": "Sourav",
+    "lastname": "Ganguly",
+    "age": "65"
+  }
+]

@@ -1,0 +1,5 @@
+#1.Download elasticsearch  zip file and save to local drive
+# go to bin folder and execute elasticsearch.bat file
+D:\open-framework\elasticsearch-9.3.2\bin
+  >elasticsearch.bat
+# open browser and hit http://localhost:9200 to see elasticsearch is running

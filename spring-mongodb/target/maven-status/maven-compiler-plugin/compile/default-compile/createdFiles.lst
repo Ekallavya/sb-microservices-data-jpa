@@ -1,0 +1,9 @@
+com\javatechie\spring\mongo\api\model\Address.class
+com\javatechie\spring\mongo\api\controller\BookController.class
+com\javatechie\spring\mongo\api\model\Book.class
+com\javatechie\spring\mongo\api\SpringMongodbApplication.class
+com\javatechie\spring\mongo\api\model\Product.class
+com\javatechie\spring\mongo\api\repository\BookRepository.class
+com\javatechie\spring\mongo\api\controller\OrderMangeController.class
+com\javatechie\spring\mongo\api\repository\OrderRepository.class
+com\javatechie\spring\mongo\api\model\User.class
