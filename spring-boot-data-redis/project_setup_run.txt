@@ -1,0 +1,38 @@
+#run docker desktop
+#go to the project folder
+ /spring-boot-data
+
+
+ #run docker compose up -d  for spinning redis server
+   ensure you have docker desktop installed and running on your machine and then run the below command
+        to start the redis server in docker container
+
+   docker compose -f docker-compose.yml  up -d
+#check if the containers are running
+    docker ps
+# build the spring boot application
+    mvn clean install
+#run the spring boot application
+    mvn spring-boot:run
+#check the logs of the application
+    docker logs -f <container_id>
+
+# Build the spring boot application
+    mvn clean install
+#run the spring boot application
+    mvn spring-boot:run
+#test the application
+    post method
+   http://localhost:8080/product
+
+   {
+   	"id":102,
+       "name": "Laptop",
+   	"qty": 1,
+   	"price": 990000
+   }
+
+   GET - for specific product
+   http://localhost:8080/product/102
+   GET - for all products
+   http://localhost:8080/product/
