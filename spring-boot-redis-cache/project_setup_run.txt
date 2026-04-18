@@ -1,0 +1,23 @@
+#run docker desktop
+#go to the project folder
+ D:\U360_SpringBootMicroservices\222_protechie\spring-boot-redis-cache
+ #run docker compose up -d
+   docker compose -f docker-compose.yml  up -d
+#check if the containers are running
+    docker ps
+# build the spring boot application
+    mvn clean install
+#run the spring boot application
+    mvn spring-boot:run
+#check the logs of the application
+    docker logs -f <container_id>
+#test the application
+   http://localhost:8080/api/product
+
+   body :
+   {
+       "name":"OnePlus",
+       "price":88000
+   }
+
+   http://localhost:8080/api/product/1
